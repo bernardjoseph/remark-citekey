@@ -3,8 +3,8 @@
  * @typedef {import('micromark-extension-citekey').Options} Options
  */
 
-import {citekey} from 'micromark-extension-citekey'
-import {citekeyToMarkdown, citekeyFromMarkdown} from 'mdast-util-citekey'
+import {citekey} from '@bernardjoseph/micromark-extension-citekey'
+import {citekeyToMarkdown, citekeyFromMarkdown} from '@bernardjoseph/mdast-util-citekey'
 
 /**
  * Plugin to support Pandoc-style citation keys ().
